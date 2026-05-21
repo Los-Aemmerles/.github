@@ -6,9 +6,11 @@ In our summer camp, children experience everyday life and society through realis
 
 ## Projects
 
-| Repository | Description |
-|------------|-------------|
-| [la-server](https://github.com/Los-Aemmerles/la-server) | Python Flask API, authentication, MariaDB backend |
+| Repository                                                    | Description                                       |
+|---------------------------------------------------------------|---------------------------------------------------|
+| [la-server](https://github.com/Los-Aemmerles/la-server)       | Python Flask API, authentication, MariaDB backend |
+| [la-jobcenter](https://github.com/Los-Aemmerles/la-jobcenter) | C#, .NET                                          |
+
 
 
 ## Contributing
@@ -21,4 +23,5 @@ In our summer camp, children experience everyday life and society through realis
 
 - Website: [los-aemmerles.de](https://los-aemmerles.de)
 - Contact: [developers@los-aemmerles.org](mailto:developers@los-aemmerles.org)
+- Funding: [los-aemmerles.de/verein/](https://los-aemmerles.de/verein/)
 - License: MIT — Copyright © Kinderspielstadt Los Ämmerles e.V.
