@@ -5,7 +5,7 @@ Thank you for helping **Kinderspielstadt Los Ämmerles e.V.** improve our open-s
 ## Before you start
 
 - Code in our repositories is licensed under the [MIT license](https://opensource.org/licenses/MIT); by contributing you agree your contributions are under the same license.
-- Read the repository **la-server** README and, for API work, `docs/developer-guide.md` where present.
+- Read the repository **la-server** README and, for API work, [docs/developer-guide.md](https://github.com/Los-Aemmerles/la-server/blob/main/docs/developer-guide.md) where present.
 - Do **not** commit secrets (`.env`), real camp data, or personal information.
 
 ## How to contribute
@@ -28,4 +28,4 @@ Be respectful. This project serves a children's summer camp run by volunteers. H
 
 ## Security
 
-See [SECURITY.md](SECURITY.md) for private vulnerability reporting.
+See [SECURITY.md](https://github.com/Los-Aemmerles/.github/blob/main/SECURITY.md) for private vulnerability reporting.

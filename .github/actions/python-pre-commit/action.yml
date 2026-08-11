@@ -1,0 +1,46 @@
+name: Python pre-commit
+description: Set up Poetry and run pre-commit for Python organisation repositories
+inputs:
+  apt-packages:
+    description: Space-separated apt packages to install before Poetry setup (optional)
+    required: false
+    default: ""
+  setup-script:
+    description: Shell commands to run after checkout and before Poetry install (optional)
+    required: false
+    default: ""
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v6
+      with:
+        python-version-file: pyproject.toml
+
+    - name: Install apt packages
+      if: inputs.apt-packages != ''
+      shell: bash
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y --no-install-recommends ${{ inputs.apt-packages }}
+
+    - name: Run setup script
+      if: inputs.setup-script != ''
+      shell: bash
+      run: ${{ inputs.setup-script }}
+
+    - name: Install Poetry
+      shell: bash
+      run: python -m pip install --upgrade pip poetry
+
+    - name: Install Poetry export plugin
+      shell: bash
+      run: poetry self add poetry-plugin-export
+
+    - name: Install dependencies
+      shell: bash
+      run: poetry install --with dev
+
+    - name: Run pre-commit
+      shell: bash
+      run: poetry run pre-commit run --all-files

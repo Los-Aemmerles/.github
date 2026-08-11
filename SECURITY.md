@@ -14,7 +14,7 @@ Include as much detail as you can: affected component, steps to reproduce, impac
 
 ## Scope
 
-This policy applies to the open-source software in this repository. It does **not** cover production servers, live camp data, or third-party hosting — report those only if the issue is in **this codebase**.
+This policy applies to the open-source software in the [Los-Aemmerles](https://github.com/Los-Aemmerles) organisation's repositories. It does **not** cover production servers, live camp data, or third-party hosting — report those only if the issue is in **our codebase**.
 
 ## Safe disclosure
 
