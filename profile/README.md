@@ -1,8 +1,6 @@
-[Deutsch](https://github.com/Los-Aemmerles/.github/blob/main/profile/README.de.md)
-
-![Kinderspielstadt Los Ämmerles logo](https://raw.githubusercontent.com/Los-Aemmerles/.github/main/assets/logo.png)
-
 # Kinderspielstadt Los Ämmerles e.V.
+
+Diese Seite ist auch [auf Deutsch verfügbar](https://github.com/Los-Aemmerles/.github/blob/main/profile/README.de.md).
 
 Non-profit association in Ammerbuch — we are digitalising the [Kinderspielstadt](https://de.wikipedia.org/wiki/Kinderstadt) “Los Ämmerles”.
 
