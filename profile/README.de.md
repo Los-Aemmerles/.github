@@ -1,6 +1,6 @@
 # Kinderspielstadt Los Ämmerles e.V.
 
-This page is also [available in English](https://github.com/Los-Aemmerles/.github/blob/main/profile/README.md).
+> This page is also available in [English](https://github.com/Los-Aemmerles/.github/blob/main/profile/README.md).
 
 Wir sind ein gemeinnütziger Verein in Ammerbuch und digitalisieren die [Kinderspielstadt](https://de.wikipedia.org/wiki/Kinderstadt) „Los Ämmerles“.
 
@@ -26,6 +26,7 @@ Der hier veröffentlichte Code steht unter der [MIT-Lizenz](https://opensource.o
 
 | Repository                                                                    | Beschreibung                                                                                                                            |
 |-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| [la-setup](https://github.com/Los-Aemmerles/la-setup)                         | Dokumentation zur Durchführung unseres Sommercamps — **in Arbeit** |
 | [la-server](https://github.com/Los-Aemmerles/la-server)                       | Zentrales Backend für alle Client-Apps: eine mit Python und Flask entwickelte REST-API mit MariaDB-Datenbank, JWT-Authentifizierung für Mitarbeiter, Betreuer und Administratoren sowie Endpunkten für Firmen, Jobs, Anwesenheit und das Erscheinungsbild der Spielstadt |
 | [la-client](https://github.com/Los-Aemmerles/la-client)                       | Windows-Desktop-App (C# / WPF, .NET 8), die Betreuern einen komfortablen Zugriff auf die Camp-Datenbank ermöglicht und Belegdrucker sowie Scanner unterstützt |
 | [la-jobcenter-kiosk](https://github.com/Los-Aemmerles/la-jobcenter-kiosk)     | Vollbildanwendung (Python / PySide6) für die Jobbörse — zeigt anhand der Daten des la-server in Echtzeit die freien Stellen der Firmen mit Ampelstatus, Stundenlohn und automatischer Aktualisierung |

@@ -1,6 +1,6 @@
 # Kinderspielstadt Los Ämmerles e.V.
 
-Diese Seite ist auch [auf Deutsch verfügbar](https://github.com/Los-Aemmerles/.github/blob/main/profile/README.de.md).
+> Diese Seite ist auch auf [Deutsch](https://github.com/Los-Aemmerles/.github/blob/main/profile/README.de.md) verfügbar.
 
 We are a non-profit organisation based in Ammerbuch, Germany, dedicated to digitising the [Kinderspielstadt](https://de.wikipedia.org/wiki/Kinderstadt) “Los Ämmerles”.
 
@@ -24,11 +24,16 @@ All code published here is open source under the [MIT License](https://opensourc
 
 ## Projects
 
-| Repository                                                                | Description |
-|---------------------------------------------------------------------------|-------------|
+
+| Repository                                                                | Description                                                                                                                                                                                                                                  |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [la-setup](https://github.com/Los-Aemmerles/la-setup)                     | Documentation of how we ran the summer camp — **work in progress**                                                                                                                                                                           |
 | [la-server](https://github.com/Los-Aemmerles/la-server)                   | Central backend for all client apps: a REST API built with Python and Flask, backed by MariaDB, with JWT authentication for employees, staff and administrators, plus endpoints for companies, jobs, attendance and the play city's branding |
-| [la-client](https://github.com/Los-Aemmerles/la-client)                   | Windows desktop app (C# / WPF, .NET 8) that gives staff convenient access to the camp database and supports receipt printers and scanners |
-| [la-jobcenter-kiosk](https://github.com/Los-Aemmerles/la-jobcenter-kiosk) | Full-screen job board display (Python / PySide6) showing companies' vacancies in real time using data from the la-server, with colour-coded availability, hourly wages and automatic updates |
+| [la-client](https://github.com/Los-Aemmerles/la-client)                   | Windows desktop app (C# / WPF, .NET 8) that gives staff convenient access to the camp database and supports receipt printers and scanners                                                                                                    |
+| [la-jobcenter-kiosk](https://github.com/Los-Aemmerles/la-jobcenter-kiosk) | Full-screen job board display (Python / PySide6) showing companies' vacancies in real time using data from the la-server, with colour-coded availability, hourly wages and automatic updates                                                 |
+
+
+
 
 ## Data protection
 
@@ -42,9 +47,12 @@ New to the project? Browse the [Good First Issues across our repositories](https
 - Code changes: **Pull requests** are welcome — see `CONTRIBUTING.md` in the relevant repository
 - Security vulnerabilities: **please do not** report them through public issues — see `SECURITY.md` in the relevant repository
 
+
+
 ## Links
 
 - Website: [los-aemmerles.de](https://los-aemmerles.de)
 - Contact: [developers@los-aemmerles.org](mailto:developers@los-aemmerles.org)
 - Support us: [los-aemmerles.de/verein/](https://los-aemmerles.de/verein/)
 - Licence: MIT — Copyright © Kinderspielstadt Los Ämmerles e.V.
+
